@@ -6,7 +6,7 @@ function Home() {
     <>
     <body className="overflow-hidden">
     {/* Nav Bar */}
-    <nav className="flex flex-wrap lg:justify-between sm:item-center bg-gray-100  lg:p-3">
+    <nav className="flex p-1 lg:justify-between sm:item-center bg-gray-100  lg:p-3">
         <img className="w-10 h-5 lg:w-24 lg:h-6 mt-3 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
         <div className="text-sm lg:text-lg pt-2 flex flex wrap">
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/dest">Destinations</a>
@@ -14,7 +14,7 @@ function Home() {
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/tickets" >tickets</a>
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/about" >Bookings</a>
         </div>
-        <div className="lg:pe-20 lg:me-15 pt-3 p-1 flex flex-wrap">
+        <div className="lg:pe-20 lg:me-15 pt-2 p-1 flex flex-wrap">
             <button className="lg:mx-4 text-xs lg:text-base lg:p-2 lg:px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
             <button className="border-2 text-xs lg:text-base rounded lg:px-3 lg:p-2 hover:text-white hover:bg-black" >sign up</button>
         </div>
@@ -31,7 +31,7 @@ function Home() {
         </div>
     </section>
     {/* Service Section*/}
-    <section className="justify-items-center lg:mb-20 mt-10 m-10">
+    <section className="justify-items-center lg:mb-20 mt-10 m-8">
          <p className=" text-sm lg:text-lg">Category</p>
         <h1 className=" text-2xl lg:text-5xl font-bold font-serif mb-10" >We Offer Best Services</h1>
         <div className="flex  flex-wrap">
