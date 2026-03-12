@@ -23,7 +23,7 @@ function Home() {
         <h1 className=" text-5xl my-5 mx-10 font-bold font-serif px-10">Travel , enjoy and live a new and full life </h1>
         <p className="px-10 text-lg mx-10 my-4" >Build wicket longer more admiredo bartan vanity itself do in it.Prefered to sportman it engrossed listening . Park gate sell they west hard for the. </p>
         <button className="border rounded bg-orange-300  hover:bg-orange-400 p-4 px-8 text-1xl m-5 ms-20">Find out more</button>
-        <button className="border rounded-2xl bg-red-500 text-1xl p-3 me-5 ">Play Demo</button>
+        <button className="border rounded-2xl hover:bg-red-500  bg-red-400 text-1xl p-3 me-5 ">Play Demo</button>
         </div>
         <div>
             <img src="/asessts/Image.png" alt="" />
@@ -61,15 +61,15 @@ function Home() {
         <div className="flex flex-wrap">
         <div className=" w-64  h-72 m-3 border shadow-lg rounded-2xl overflow-hidden  flex-wrap justify-items-center">
             <img className="w-full w-56 h-56  object-cover" src="/asessts/uk.jpeg" alt="uk" />
-            <p>built Wicket longer admire do barton vanity itself do in it </p>
+            <p className="p-2"> London,Uk <span className="ps-20">$4.2k</span><br/>12 Days Trip </p>
         </div>
         <div className=" w-64 h-72  m-3 border shadow-lg rounded-2xl overflow-hidden  flex-wrap justify-items-center">
-            <img className="w-full w-56 h-56  object-cover" src="/asessts/eroup.jpeg" alt="europ" />
-            <p>built Wicket longer admire do barton vanity itself do in it </p>
+            <img className="w-full w-56 h-56  object-cover" src="/asessts/eroup.jpeg" alt="europe" />
+            <p className="p-2"> Full Europe <span className="ps-20">$15k</span><br/>28 Days Trip </p>
         </div>
         <div className=" w-64 h-72  m-3 border shadow-lg rounded-2xl overflow-hidden  flex-wrap justify-items-center">
             <img className="w-full w-56 h-56  object-cover" src="/asessts/itely.jpeg" alt="itley" />
-            <p>built Wicket longer admire do barton vanity itself do in it </p>
+            <p className="p-2"> Rome ,Italty <span className="ps-20">$5.4k</span><br/>10 Days Trip </p>
         </div>
         </div>
     </section>
