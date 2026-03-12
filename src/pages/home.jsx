@@ -129,22 +129,22 @@ function Home() {
         <img className="w-24 h-24 lg:w-48 lg:h-40 m-1 shadow-md rounded-2xl" src="/asessts/Airline5.jpeg" alt="itley" />
     </section>
     {/* Email Section */}
-    <section className="mx-20 justify-items-center  rounded-tl-3xl rounded-lg py-8 mt-20 bg-purple-100">
+    <section className="lg:mx-20 justify-items-center rounded-tl-3xl rounded-lg py-8 mt-20 bg-purple-100">
         <div className="justify-items-center">
-            <h1 className="text-gray-400 text-2xl ms-20 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h1>
-            <div className="flex flex-wrap m-10">
-            <input type="text" placeholder="Your email " className="h-12 w-80  ps-10 rounded-2xl"/>
-             <button className="border rounded bg-orange-300 hover:bg-orange-400 p-3 px-8 text-1xl ms-5">Subscribe</button>
+            <h1 className="text-gray-400 text-lg lg:text-2xl mx-10 lg:ms-20 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h1>
+            <div className="lg:flex lg:flex-wrap m-10">
+            <input type="text" placeholder="Your email " className="h-12 lg:w-80 w-56 ps-10 rounded-2xl"/>
+             <button className="border rounded bg-orange-300 hover:bg-orange-400 p-1 lg:p-4 lg:px-8  text-1xl ms-5">Subscribe</button>
         </div>
         </div>
     </section>
     {/* About Section */}
-    <section className="flex flex-wrap mx-20 mt-20 mb-10 ps-10">
-        <div className="w-56 m-5">
+    <section className="flex flex-wrap lg:mx-20 mt-20 mb-10 ps-10">
+        <div className="w-56 mx-20 lg:mx-0 m-5">
             <img className="w-16h-8 m-3  rounded-2xl" src="/asessts/Logo.png" alt="Logo" />
             <p className="text-gray-400">Book your trip in minute ,get full control for much longer</p>
         </div>
-        <div className="w-32 m-5">
+        <div className=" w-24 ms-7 lg:w-32 lg:m-5">
             <h3 className="font-bold"> Company</h3>
             <p className="text-gray-400">
                 About<br/>
@@ -152,7 +152,7 @@ function Home() {
                 Mobile<br/>
             </p>
         </div>
-        <div className="w-32 m-5">
+        <div className=" w-24 ms-7 lg:w-32 lg:m-5">
             <h3 className="font-bold">Contact</h3>
             <p className="text-gray-400">
                 Help/FAQ<br/>
@@ -160,7 +160,7 @@ function Home() {
                 Affilates<br/>
             </p>
         </div>
-        <div className="w-32 m-5">
+        <div className=" w-24 ms-7 lg:w-32 lg:m-5">
             <h3 className="font-bold">More</h3>
             <p className="text-gray-400">
                 Airlinefees<br/>
@@ -169,7 +169,7 @@ function Home() {
             </p>
         </div>
         <div>
-              <img className="w-56 h-40 m-1  rounded-2xl" src="/asessts/advertisement.jpeg" alt="advestisement" />
+              <img className="ms-20 lg:ms-0 w-56 h-40 m-1 mt-5 lg:mt-0 rounded-2xl" src="/asessts/advertisement.jpeg" alt="advestisement" />
         </div>
 
     </section>
