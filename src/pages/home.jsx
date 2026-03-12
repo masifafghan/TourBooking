@@ -4,6 +4,7 @@ import React from "react";
 function Home() {
   return (
     <>
+    {/* Nav Bar */}
     <nav className=" flex flex-wrap justify-between item-center bg-gray-100 p-3">
         <img className="w-16h-8 m-3 ps-20 ms-20 rounded-2xl" src="/asessts/Logo.png" alt="Logo" />
         <div className="text-lg pt-2 flex flex wrap">
@@ -17,6 +18,7 @@ function Home() {
             <button className="border-2 rounded px-3 p-2 hover:text-white hover:bg-black" >sign up</button>
         </div>
     </nav>
+    {/* Display Page Section */}
     <section className="flex p-10 m-10 border shadow-lg rounded-3xl">
         <div >
         <p className="text-red-500 px-10  mx-10 text-lg ">BEST DESTINATION AROUND THE WORLD</p>
@@ -29,6 +31,7 @@ function Home() {
             <img src="/asessts/Image.png" alt="" />
         </div>
     </section>
+    {/* Service Section*/}
     <section className="justify-items-center mb-20 mt-10 m-5">
          <p className="text-lg">Category</p>
         <h1 className=" text-5xl font-bold font-serif mb-10" >We Offer Best Services</h1>
@@ -55,6 +58,7 @@ function Home() {
         </div>
         </div>
     </section>
+    {/* Destination Section */}
     <section className="justify-items-center  pt-10 m-5 pb-20" >
         <p className=" text-lg ">Top Selling</p>
         <h3 className="text-5xl font-bold font-serif mb-10">Top Destination</h3>
@@ -73,6 +77,7 @@ function Home() {
         </div>
         </div>
     </section>
+    {/* Other Section */}
     <section className="m-20 ">
         <p className="text-lg ms-20 ps-5">Easy and Fast</p>
         <h1 className="text-4xl ms-20 ps-5 font-bold w-96 font-serif text-wrap">Book Your Next Trip in 3 Easy Steps</h1>
@@ -115,6 +120,7 @@ function Home() {
         </div>
         </div>
     </section>
+    {/* Logo Section */}
     <section className=" m-20 flex flex-wrap p-10 ">
         <img className="w-48 h-40 m-1 shadow-md rounded-2xl" src="/asessts/Airline1.jpeg" alt="itley" />
         <img className="w-48 h-40 m-1 shadow-md rounded-2xl" src="/asessts/Airline2.jpeg" alt="itley" />
@@ -122,6 +128,7 @@ function Home() {
         <img className="w-48 h-40 m-1 shadow-md rounded-2xl" src="/asessts/Airline4.jpeg" alt="itley" />
         <img className="w-48 h-40 m-1 shadow-md rounded-2xl" src="/asessts/Airline5.jpeg" alt="itley" />
     </section>
+    {/* Email Section */}
     <section className="mx-20 justify-items-center  rounded-tl-3xl rounded-lg py-8 mt-20 bg-purple-100">
         <div className="justify-items-center">
             <h1 className="text-gray-400 text-2xl ms-20 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h1>
@@ -131,6 +138,7 @@ function Home() {
         </div>
         </div>
     </section>
+    {/* About Section */}
     <section className="flex flex-wrap mx-20 mt-20 mb-10 ps-10">
         <div className="w-56 m-5">
             <img className="w-16h-8 m-3  rounded-2xl" src="/asessts/Logo.png" alt="Logo" />
