@@ -8,10 +8,10 @@ function Home() {
     <nav className="flex flex-wrap  lg:justify-between sm:item-center bg-gray-100 p-1 lg:p-3">
         <img className="w-16 h-5 lg:w-24 lg:h-6 m-3 ps-2  ms-2 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
         <div className="text-sm lg:text-lg pt-2 flex flex wrap">
-            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >Destinations</p>
-            <p className="p-1 lg:px-4 text-black hover:text-blue-500"  >Hotels</p>
-            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >tickets</p>
-            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >Bookings</p>
+            <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/dest">Destinations</a>
+            <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/hotels" >Hotels</a>
+            <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/tickets" >tickets</a>
+            <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/about" >Bookings</a>
         </div>
         <div className="lg:pe-20 lg:me-15 pt-2">
             <button className="lg:mx-4 lg:p-2 lg:px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
@@ -133,7 +133,7 @@ function Home() {
         <div className="justify-items-center">
             <h1 className="text-gray-400 text-lg lg:text-2xl mx-10 lg:ms-20 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h1>
             <div className="lg:flex lg:flex-wrap m-10">
-            <input type="text" placeholder="Your email " className="h-12 lg:w-80 w-56 ps-10 rounded-2xl"/>
+            <input type="text" placeholder="Your email " className="h-12 lg:w-80 w- ps-10 rounded-2xl"/>
              <button className="border rounded bg-orange-300 hover:bg-orange-400 p-1 lg:p-4 lg:px-8  text-1xl ms-5">Subscribe</button>
         </div>
         </div>
