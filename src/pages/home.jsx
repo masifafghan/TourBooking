@@ -6,7 +6,7 @@ function Home() {
     <>
     <nav className=" flex flex-wrap justify-between item-center bg-gray-100 p-3">
         <img className="w-16h-8 m-3 ps-20 ms-20 rounded-2xl" src="/asessts/Logo.png" alt="Logo" />
-        <div className="text-lg pt-2 ">
+        <div className="text-lg pt-2 flex flex wrap">
             <p className="px-4 text-black hover:text-blue-500" >Destinations</p>
             <p className="px-4 text-black hover:text-blue-500"  >Hotels</p>
             <p className="px-4 text-black hover:text-blue-500" >tickets</p>
