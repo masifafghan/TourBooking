@@ -6,8 +6,8 @@ function Home() {
     <>
     <body className="overflow-hidden">
     {/* Nav Bar */}
-    <nav className="flex p-1 lg:justify-between sm:item-center bg-gray-100  lg:p-3">
-        <img className="w-10 h-5 lg:w-24 lg:h-6 mt-3 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
+    <nav className="flex lg:justify-between sm:item-center bg-gray-100  lg:p-3">
+        <img className="w-10 h-5 lg:w-24 p-2 lg:h-6 mt-3 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
         <div className="text-sm lg:text-lg pt-2 flex flex wrap">
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/dest">Destinations</a>
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/hotels" >Hotels</a>
