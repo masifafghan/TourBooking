@@ -5,17 +5,17 @@ function Home() {
   return (
     <>
     {/* Nav Bar */}
-    <nav className=" flex flex-wrap justify-between item-center bg-gray-100 p-3">
-        <img className="w-16h-8 m-3 ps-20 ms-20 rounded-2xl" src="/asessts/Logo.png" alt="Logo" />
-        <div className="text-lg pt-2 flex flex wrap">
-            <p className="px-4 text-black hover:text-blue-500" >Destinations</p>
-            <p className="px-4 text-black hover:text-blue-500"  >Hotels</p>
-            <p className="px-4 text-black hover:text-blue-500" >tickets</p>
-            <p className="px-4 text-black hover:text-blue-500" >Bookings</p>
+    <nav className="flex flex-wrap  lg:justify-between sm:item-center bg-gray-100 p-1 lg:p-3">
+        <img className="w-16 h-5 lg:w-24 lg:h-6 m-3 ps-2  ms-2 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
+        <div className="text-sm lg:text-lg pt-2 flex flex wrap">
+            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >Destinations</p>
+            <p className="p-1 lg:px-4 text-black hover:text-blue-500"  >Hotels</p>
+            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >tickets</p>
+            <p className="p-1 lg:px-4 text-black hover:text-blue-500" >Bookings</p>
         </div>
-        <div className="pe-20 me-15 pt-1">
-            <button className="mx-4 p-2 px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
-            <button className="border-2 rounded px-3 p-2 hover:text-white hover:bg-black" >sign up</button>
+        <div className="lg:pe-20 lg:me-15 pt-2">
+            <button className="lg:mx-4 lg:p-2 lg:px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
+            <button className="border-2 rounded lg:px-3 lg:p-2 hover:text-white hover:bg-black" >sign up</button>
         </div>
     </nav>
     {/* Display Page Section */}
