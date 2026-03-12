@@ -21,11 +21,11 @@ function Home() {
     {/* Display Page Section */}
     <section className="flex p-10 m-10 border shadow-lg rounded-3xl">
         <div >
-        <p className="text-red-500 px-10  mx-10 text-lg ">BEST DESTINATION AROUND THE WORLD</p>
-        <h1 className=" text-5xl my-5 mx-10 font-bold font-serif px-10">Travel , enjoy and live a new and full life </h1>
-        <p className="px-10 text-lg mx-10 my-4" >Build wicket longer more admiredo bartan vanity itself do in it.Prefered to sportman it engrossed listening . Park gate sell they west hard for the. </p>
-        <button className="border rounded bg-orange-300  hover:bg-orange-400 p-4 px-8 text-1xl m-5 ms-20">Find out more</button>
-        <button className="border rounded-2xl hover:bg-red-500  bg-red-400 text-1xl p-3 me-5 ">Play Demo</button>
+        <p className="text-red-500 px-0 lg:px-10 lg:mx-10 mx-0 text-sm lg:text-lg ">BEST DESTINATION AROUND THE WORLD</p>
+        <h1 className="md:text-3xl lg:text-5xl text-lg my-5 lg:mx-10 mx-0 font-bold font-serif px-0 lg:px-10">Travel , enjoy and live a new and full life </h1>
+        <p className="px-0 lg:px-10 text-lg lg:mx-10 mx-0 my-4" >Build wicket longer more admiredo bartan vanity itself do in it.Prefered to sportman it engrossed listening . Park gate sell they west hard for the. </p>
+        <button className="border rounded bg-orange-300  hover:bg-orange-400 p-1 lg:p-4 lg:px-8 text-1xl m-5 lg:mx-20 mx-0">Find out more</button>
+        <button className="border rounded-2xl hover:bg-red-500  bg-red-400 p-1   text-1xl lg:p-3 lg:me-5 ">Play Demo</button>
         </div>
         <div>
             <img src="/asessts/Image.png" alt="" />
