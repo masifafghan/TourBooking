@@ -7,15 +7,15 @@ function Home() {
     <body className="overflow-hidden">
     {/* Nav Bar */}
     <nav className="flex lg:justify-between sm:item-center bg-gray-100  lg:p-3">
-        <img className="w-10 h-5 lg:w-24 p-2 lg:h-6 mt-3 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
+        <img className="w-14 h-7 lg:w-24 m-2 lg:h-6 mt-3 lg:ms-20 rounded" src="/asessts/Logo.png" alt="Logo" />
         <div className="text-sm lg:text-lg pt-2 flex flex wrap">
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/dest">Destinations</a>
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/hotels" >Hotels</a>
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/tickets" >tickets</a>
             <a className="p-1 lg:px-4 text-black hover:text-blue-500" href="/about" >Bookings</a>
         </div>
-        <div className="lg:pe-20 lg:me-15 pt-2 p-1 flex flex-wrap">
-            <button className="lg:mx-4 text-xs lg:text-base lg:p-2 lg:px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
+        <div className="lg:pe-20 lg:me-15 flex flex-wrap">
+            <button className="lg:mx-4 text-xs my-1 lg:text-base lg:p-2 lg:px-3 border-2 rounded hover:text-white hover:bg-black " >login</button>
             <button className="border-2 text-xs lg:text-base rounded lg:px-3 lg:p-2 hover:text-white hover:bg-black" >sign up</button>
         </div>
     </nav>
@@ -37,23 +37,23 @@ function Home() {
         <div className="flex  flex-wrap">
         <div className=" w-32 h-40 lg:w-56 lg:h-64 lg:m-3 m-2 border shadow-lg rounded-lg overflow-hidden  flex-wrap justify-items-center">
             <img className="lg:w-full lg:w-48 lg:h-32 w-full w-24 h-16  object-cover" src="/asessts/weather.jpeg" alt="Check weather" />
-            <h4 className="font-bold lg:m-4">Calculated Weather </h4>
-            <p className="text-sm lg:px-5">Built Wicket longer admire do barton vanity itself do in it </p>
+            <h4 className="font-bold p-1 lg:m-4">Calculated Weather </h4>
+            <p className="text-xs p-1 lg:px-5">Built Wicket longer admire do barton vanity itself do in it </p>
         </div>
         <div className="w-32 h-40 lg:w-56 lg:m-3 m-2 lg:h-64 border shadow-lg rounded-lg overflow-hidden  flex-wrap justify-items-center">
             <img className="lg:w-full lg:w-48 lg:h-32 w-full w-24 h-16 object-cover" src="/asessts/plane.jpeg" alt="Best Flights" />
-            <h4 className="font-bold m-4"> Best Flights</h4>
-            <p className="text-sm lg:lg:lg:px-5">Engrossed listening<br/>Park gate sell they west hard for the</p>
+            <h4 className="font-bold p-1 lg:m-4"> Best Flights</h4>
+            <p className="text-xs p-1 lg:px-5">Engrossed listening<br/>Park gate sell they west hard for the</p>
         </div>
         <div className="w-32 h-40 lg:w-56 lg:m-3 m-2 lg:h-64 border shadow-lg rounded-lg overflow-hidden flex-wrap justify-items-center">
             <img className="lg:w-full lg:w-48 lg:h-32 w-full w-24 h-16  object-cover" src="/asessts/mic.jpeg" alt="mic" />
-            <h4 className="font-bold lg:m-4">Local Events</h4>
-            <p className="text-sm lg:px-5">Barton vanity itself do in it . Preferd to men it engrossed listening </p>
+            <h4 className="font-bold p-1 lg:m-4">Local Events</h4>
+            <p className="text-xs p-1 lg:px-5">Barton vanity itself do in it . Preferd to men it engrossed listening </p>
         </div>
         <div className="w-32 h-40 lg:w-56 lg:m-3 m-2 lg:h-64 border shadow-lg rounded-lg overflow-hidden flex-wrap justify-items-center">
             <img className="lg:w-full lg:w-48 lg:h-32 w-full w-24 h-16 object-cover" src="/asessts/gear.jpeg" alt="customization" />
-            <h4 className="font-bold lg:m-4">Customization</h4>
-            <p className="text-sm lg:px-5 wrap-break-word">We deliver otsourced for military customers</p>
+            <h4 className="font-bold p-1 lg:m-4">Customization</h4>
+            <p className="text-xs p-1 lg:px-5 wrap-break-word">We deliver otsourced for military customers</p>
         </div>
         </div>
     </section>
