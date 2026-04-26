@@ -1,9 +1,8 @@
 import React from "react";
-
-
 function Home() {
   return (
     <>
+    
     <body className="overflow-hidden">
     {/* Nav Bar */}
     <nav className="flex lg:justify-between sm:item-center bg-gray-100  lg:p-3">
@@ -19,7 +18,7 @@ function Home() {
             <button className="border-2 text-xs lg:text-base rounded lg:px-3 lg:p-2 hover:text-white hover:bg-black" >sign up</button>
         </div>
     </nav>
-    {/* Display Page Section */}
+    {/* Hero Section */}
     <section className="flex p-10 m-10 lg:mx-20 border shadow-lg rounded-3xl">
         <div >
         <img className="float-right w-96" src="/asessts/Image.png" alt="" />
@@ -33,7 +32,7 @@ function Home() {
     {/* Service Section*/}
     <section className="justify-items-center lg:mb-20 mt-10 m-8">
          <p className=" text-sm lg:text-lg">Category</p>
-        <h1 className=" text-2xl lg:text-5xl font-bold font-serif mb-10" >We Offer Best Services</h1>
+        <h2 className=" text-2xl lg:text-5xl font-bold font-serif mb-10" >We Offer Best Services</h2>
         <div className="flex  flex-wrap">
         <div className=" w-32 h-40 lg:w-56 lg:h-64 lg:m-3 m-2 border shadow-lg rounded-lg overflow-hidden  flex-wrap justify-items-center">
             <img className="lg:w-full lg:w-48 lg:h-32 w-full w-24 h-16  object-cover" src="/asessts/weather.jpeg" alt="Check weather" />
@@ -79,7 +78,7 @@ function Home() {
     {/* Other Section */}
     <section className=" lg:mx-20">
         <p className="text-sm text-lg ms-6 lg:ms-20 ps-5">Easy and Fast</p>
-        <h1 className="text:3xl lg:text-4xl ms-6 lg:ms-20 ps-5 font-bold w-96 font-serif text-wrap">Book Your Next Trip in 3 Easy Steps</h1>
+        <h2 className="text:3xl lg:text-4xl ms-6 lg:ms-20 ps-5 font-bold w-96 font-serif text-wrap">Book Your Next Trip in 3 Easy Steps</h2>
         <div className="flex flex-wrap ">
         <div className="float-left w-88 p-5 ps-6 lg:ps-20 ms-4 lg:me-20">
             <div className="ms-2 flex w-72 lg:w-80 text-wrap pb-3">
@@ -130,7 +129,7 @@ function Home() {
     {/* Email Section */}
     <section className="lg:mx-20 justify-items-center rounded-tl-3xl rounded-lg py-8 mt-20 bg-purple-100">
         <div className="justify-items-center">
-            <h1 className="text-gray-400 text-lg lg:text-2xl mx-10 lg:ms-20 ps-8 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h1>
+            <h2 className="text-gray-400 text-lg lg:text-2xl mx-10 lg:ms-20 ps-8 flex flex-wrap font-bold">Subscribe to get information, latest news and other intresting offers about Jadoo</h2>
             <div className="lg:flex lg:flex-wrap m-10">
             <input type="text" placeholder="Your email " className="h-12 lg:w-80 w-40 ps-10 rounded-2xl"/>
              <button className="border rounded bg-orange-300 hover:bg-orange-400 p-1 lg:p-4 lg:px-8  text-1xl ms-2 lg:ms-5">Subscribe</button>
